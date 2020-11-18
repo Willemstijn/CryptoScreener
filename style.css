@@ -47,6 +47,7 @@
     height: 200x;
     margin: 10px;
     text-align: center;
+    vertical-align: top;
     line-height: 75px;
     font-size: 30px;
 }
@@ -61,9 +62,9 @@
     /* background-color: orange; */
     /* width: 300px; */
     /* margin: 10px; */
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+    /* text-align: center; */
+    /* line-height: 75px; */
+    /* font-size: 30px; */
 }
 
 .rtc-widgets {
@@ -78,4 +79,21 @@
     margin: 10px;
     padding: 20px;
     font-size: 30px;
+}
+
+.links {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    text-align: left;
+    /* vertical-align: text-top; */
+    padding-left: 20px;
+    background-color: lightgray;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    text-align: left;  
+    padding-left: 20px; 
+    background-color: burlywood;
 }
