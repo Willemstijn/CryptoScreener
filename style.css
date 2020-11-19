@@ -1,3 +1,6 @@
+body{
+    background-color: black;
+}
 .main-screen {
     display: flex;
 }
@@ -5,6 +8,25 @@
 .ticker {
     width: 100%;
 }
+
+.main-second-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.main-third-row{
+    width: 100%;
+}
+
+.main-fourth-row{
+    /* Fear & greed index, links etc. */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    vertical-align: top;
+    align-items: stretch;
+}.main-
 
 .left-column {
     float: left;
@@ -95,5 +117,5 @@ h2 {
     font-size: large;
     text-align: left;  
     padding-left: 20px; 
-    background-color: burlywood;
+    background-color: goldenrod;
 }
