@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+.main-screen {
+    display: flex;
+}
+
+/* =========================== */
+.row-Pairs{
+    float: top;
+    height: 50%;
+}
+
+.row-Pairs{
+    float: top;
+    height: 50%;
+}
+
+.left-column-4pairs {
+    float: left;
+    width: 50%;
+}
+
+.right-column-4pairs {
+    float: left;
+    width: 50%;
+}
+
+.left-column-8pairs {
+    float: left;
+    width: 25%;
+}
+
+.left-center-column-8pairs {
+    float: left;
+    width: 25%;
+}
+
+.right-center-column-8pairs {
+    float: left;
+    width: 25%;
+}
+
+.right-column-8pairs {
+    float: left;
+    width: 25%;
+}
