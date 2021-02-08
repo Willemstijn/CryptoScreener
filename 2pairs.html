@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 Pairs</title>
+    <style type="text/css" media="screen"></style>
+    <link rel="stylesheet" href="./style_pairs.css ">
+</head>
+
+<body>
+    <div class="left-column-4pairs">
+        <div class="tradingview-widget-container">
+            <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+            <script type="text/javascript">
+                new TradingView.widget(
+                    {
+                        "autosize": true,
+                        "symbol": "BYBIT:BTCUSD",
+                        "interval": "15",
+                        "timezone": "Europe/Amsterdam",
+                        "theme": "dark",
+                        "style": "1",
+                        "locale": "en",
+                        "toolbar_bg": "#f1f3f6",
+                        "enable_publishing": false,
+                        "hide_side_toolbar": false,
+                        "allow_symbol_change": true,
+                        "save_image": false,
+                        "studies": [
+                            "BB@tv-basicstudies",
+                            "BollingerBandsR@tv-basicstudies",
+                            "MF@tv-basicstudies",
+                            "RSI@tv-basicstudies",
+                            "VWAP@tv-basicstudies"
+                        ],
+                        "show_popup_button": true,
+                        "popup_width": "1000",
+                        "popup_height": "650",
+                        "container_id": "tradingview_7909e"
+                    }
+                );
+            </script>
+        </div>
+    </div>
+    <div class="right-column-4pairs">
+        <div class="tradingview-widget-container">
+            <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+            <script type="text/javascript">
+                new TradingView.widget(
+                    {
+                        "autosize": true,
+                        "symbol": "BYBIT:ETHUSD",
+                        "interval": "15",
+                        "timezone": "Europe/Amsterdam",
+                        "theme": "dark",
+                        "style": "1",
+                        "locale": "en",
+                        "toolbar_bg": "#f1f3f6",
+                        "enable_publishing": false,
+                        "hide_side_toolbar": false,
+                        "allow_symbol_change": true,
+                        "save_image": false,
+                        "studies": [
+                            "BB@tv-basicstudies",
+                            "BollingerBandsR@tv-basicstudies",
+                            "MF@tv-basicstudies",
+                            "RSI@tv-basicstudies",
+                            "VWAP@tv-basicstudies"
+                        ],
+                        "show_popup_button": true,
+                        "popup_width": "1000",
+                        "popup_height": "650",
+                        "container_id": "tradingview_7909e"
+                    }
+                );
+            </script>
+        </div>
+        <!-- TradingView Widget END -->
+    </div>
+
+</body>
+
+</html>
