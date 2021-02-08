@@ -74,6 +74,17 @@ body{
     font-size: 30px;
 }
 
+.auto-pairs > div {
+    /* background-color: #f1f1f1; */
+    width: 50%;
+    height: 50%;
+    margin: 10px;
+    text-align: center;
+    vertical-align: top;
+    line-height: 75px;
+    font-size: 30px;
+}
+
 .right-column {
     display: flex;
     flex-direction: column;
