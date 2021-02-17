@@ -1,0 +1,132 @@
+body{
+    background-color: black;
+}
+.main-screen {
+    display: flex;
+}
+
+.ticker {
+    width: 100%;
+}
+
+.main-second-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.main-third-row{
+    width: 100%;
+}
+
+.main-fourth-row{
+    /* Fear & greed index, links etc. */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    vertical-align: top;
+    align-items: stretch;
+}.main-
+
+.left-column {
+    float: left;
+    width: 80%;
+}
+
+.main-left-rows {
+    /* display: flex;
+    flex-direction: column; */
+    height: 700px;
+    padding: 20px;
+}
+.main-left-row-upper {
+    display: flex;
+    /* align-items: center;
+    flex-wrap: nowrap; */
+    overflow-x: auto;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+}
+.main-left-row-upper > div {
+    background-color: #f1f1f1;
+    width: 200px;
+    height: 350px;
+    vertical-align: top;
+    margin: 5px;
+    text-align: center;
+    /* line-height: 75px; */
+    /* font-size: 10px; */
+}
+.main-left-row-second {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+
+}
+.main-left-row-second > div {
+    background-color: #f1f1f1;
+    width: 350px;
+    height: 200x;
+    margin: 10px;
+    text-align: center;
+    vertical-align: top;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.auto-pairs > div {
+    /* background-color: #f1f1f1; */
+    width: 50%;
+    height: 50%;
+    margin: 10px;
+    text-align: center;
+    vertical-align: top;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 20%;
+}
+.right-column > div {
+    /* background-color: orange; */
+    /* width: 300px; */
+    /* margin: 10px; */
+    /* text-align: center; */
+    /* line-height: 75px; */
+    /* font-size: 30px; */
+}
+
+.rtc-widgets {
+    display: flex;
+    background-color: DodgerBlue;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.links {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    text-align: left;
+    /* vertical-align: text-top; */
+    padding-left: 20px;
+    background-color: lightgray;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    text-align: left;  
+    padding-left: 20px; 
+    background-color: goldenrod;
+}
